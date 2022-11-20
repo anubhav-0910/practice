@@ -12,5 +12,7 @@ return -1;
 	
 int main(){
 vector<int>v={1,4,7,2,8};
-return linear_search(v,8);
+int x;
+cin>>x;
+return linear_search(v,x);
 }
