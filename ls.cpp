@@ -1,9 +1,9 @@
-#include<iostream>
+#include<bits/stdc++.h>
 using namespace std;
 
-int linear_search(int arr[],int x){
+int linear_search(vector<int>v,int x){
 	for(int i=0;i<5;i++){
-		if(arr[i]==x) return i;
+		if(v[i]==x) return i;
 	}
 return -1;
 }
@@ -11,6 +11,6 @@ return -1;
 	
 	
 int main(){
-int arr[5]={1,4,7,2,8};
-return linear_search(arr,8);
+vector<int>v={1,4,7,2,8};
+return linear_search(v,8);
 }
